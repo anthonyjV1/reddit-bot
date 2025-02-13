@@ -11,9 +11,9 @@ def bot_login():
 
 def run_bot(r):
     for comment in r.subreddit('test').comments(limit = 25):
-        if "dog" in comment.body:
+        if "zyyz" in comment.body:
             print ("String found!")
-            comment.reply("I love dogs!")
+            comment.reply("I love logs!")
 
 r = bot_login()
 run_bot(r)
